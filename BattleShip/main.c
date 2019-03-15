@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "Functions.h"
-#include "Functions.c"
+
 
 int main()
 {
@@ -11,7 +11,7 @@ int main()
     initialise_board(board1);
     print_board(board1);
     rules();
-    set_board(board1);
-    print_board(board1);
+    set_battleship(board1);
+    //set_cruiser(board1);
     return 0;
 }

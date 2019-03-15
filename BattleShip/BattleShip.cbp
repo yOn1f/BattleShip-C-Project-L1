@@ -21,11 +21,8 @@
 		</Compiler>
 		<Unit filename="Functions.c">
 			<Option compilerVar="CC" />
-			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
-		<Unit filename="Functions.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
+		<Unit filename="Functions.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

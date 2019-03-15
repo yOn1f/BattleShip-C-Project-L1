@@ -1,13 +1,17 @@
 # depslib dependency file v1.0
-1552401973 source:c:\users\yoni\onedrive\c\battleship\main.c
+1552650421 source:c:\users\yoni\onedrive\c\battleship\main.c
 	<stdio.h>
 	<stdlib.h>
 	"Functions.h"
-	"Functions.c"
 
-1552402002 c:\users\yoni\onedrive\c\battleship\functions.h
+1552650421 c:\users\yoni\onedrive\c\battleship\functions.h
 
-1552409184 c:\users\yoni\onedrive\c\battleship\functions.c
+1552588814 c:\users\yoni\onedrive\c\battleship\functions.c
+	<stdio.h>
+	<stdlib.h>
+	"Functions.h"
+
+1552650401 source:c:\users\yoni\onedrive\c\battleship\functions.c
 	<stdio.h>
 	<stdlib.h>
 	"Functions.h"
