@@ -4,10 +4,11 @@
 void    initialise_board(char board[][10]);
 void    print_board(char board[][10]);
 void    rules();
-void    getValidCoordinates(int* ptrJ, int* ptrK, int* ptrL, int* ptrM);
-int     validOrientation(int j, int k, int l, int m);
+void    getValidCoordinates(int* x1, int* y1, int* x2, int* y2);
+int     validOrientation(int X1, int Y1, int X2, int Y2);
 int     validLocation(char board[][10], int X, int Y);
-int     valideSize(int size, int ptrJ, int ptrK, int ptrL, int ptrM);
-void    modify(char board[][10], int* ptrJ, int* ptrK, char c);
+int     valideSize(int size, int X1, int Y1, int X2, int Y2);
+int     validCompleteShip(char board[][10], int X1, int Y1, int X2, int Y2, char c);
+void    modify(char board[][10], int X, int Y, char c);
 void    set_ship(char board[][10], int size, char c);
 #endif // FUNCTIONS_H_INCLUDED
